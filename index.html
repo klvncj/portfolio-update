@@ -82,7 +82,7 @@
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2147483647;
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
@@ -163,7 +163,7 @@
 </head>
 <body bgcolor="#14181b">
   <!-- Mobile Menu  -->
-    <div id="myNav" class="overlay z-50">
+    <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
           <a href="#skill">Skill</a>
@@ -184,7 +184,7 @@
             </ol>
         </div>
         <div class="flex m-3 fixed z-50 top-0 md:hidden">
-            <span class="text-white bg-[#14181b] outline outline-white outline-2 rounded" onclick="openNav()">
+            <span class="text-white bg-[#14181b] outline outline-white outline-2 rounded z-30" onclick="openNav()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>
             </span>
         </div>
